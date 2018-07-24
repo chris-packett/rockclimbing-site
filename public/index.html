@@ -5,32 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Rockclimbing Site</title>
     <link rel="stylesheet" href="/screen.css">
+    <style>
+    body {
+      background-image: radial-gradient(rgb(194, 196, 109), rgb(13, 109, 173));
+    }
+    h1 {
+      text-align : center;
+    }
+    h4 {
+      text-align : center;
+    }
+    p {
+      margin : 35px;
+    }
+    footer {
+      text-align : center;
+    }
+    </style>
   </head>
   <body>
-    <h1>Rockclimbing!</h1>
-    <h4>by Chris Packett</h4>
+    <h1 class="center">Rockclimbing!</h1>
+    <h4 class="center">by Chris Packett</h4>
+
     <section>
       <p>Rockclimbing is my favorite hobby because it is not only a physical sport, but it is
          also an analytical sport. You have to be spatially aware of all of the rock patterns
          that are near you. Here is a link to a beginner's guide to rockclimbing: 
-         <a href="https://www.rei.com/learn/expert-advice/getting-started-rock-climbing.html">click me!</a>
-      </p>
+         <a href="https://www.rei.com/learn/expert-advice/getting-started-rock-climbing.html">click me!</a></p>
     </section>
+
     <section>
-      <h1>
-        Places where I like to rockclimb:
-      </h1>
+      <h2>Places where I like to rockclimb:</h2>
       <ul>
         <li>Vertical Ventures Saint Pete</li>
         <li>Foster Falls: Chattanooga, TN</li>
         <li>The Tennessee Wall, TN</li>
       </ul>
-      <p>
-        That was also a list of the ONLY places I've been to. 
-      </p>
     </section>
+
+    <section>
+      <h1 id="myHeader">Very important message about how cool rockclimbing is.</h1>
+      <div style="text-align:center;">
+      <button onclick="displayResult()">Do not touch</button>
+      </div>
+    </section>
+
+    <script>
+    function displayResult() {
+          document.getElementById("myHeader").innerHTML = "Did you really have to touch me like that?";
+    }
+    </script>
+    <br>
     <footer>
       This is my awesome footer.
     </footer>
+
   </body>
 </html>
