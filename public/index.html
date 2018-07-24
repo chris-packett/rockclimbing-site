@@ -3,25 +3,34 @@
   <head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Rockclimbing Site</title>
+    <title>Rockclimbing Site Page 1</title>
     <link rel="stylesheet" href="/screen.css">
   </head>
   <body>
-    <!-- <img src="rock-background-2.jpeg"> -->
+    <br>
     <h1 class="center">Rockclimbing!</h1>
+    <section class="top-format">
+      <img src="Rock_Climbing_CP.jpg" height="150" width="150">
+    </section>
     <h4 class="center">by Chris Packett</h4>
-    <nav>
-      <a href="/rockclimb.html">Check out more about my favorite hobby</a>
+    <nav class="center">
+      <ul id="menu">
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="/rockclimb.html">More</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contactus">Contact Us</a></li>
+      </ul>
+      <!-- <a href="/rockclimb.html">Check out more about my favorite hobby</a> -->
     </nav>
-    <section>
-      <p>Rockclimbing is my favorite hobby because it is not only a physical sport, but it is
+    <section class="places-to-rockclimb-section">
+      <p class="paragraph-center">Rockclimbing is my favorite hobby because it is not only a physical sport, but it is
          also an analytical sport. You have to be spatially aware of all of the rock patterns
          that are near you. Here is a link to a beginner's guide to rockclimbing: 
          <a href="https://www.rei.com/learn/expert-advice/getting-started-rock-climbing.html">click me!</a></p>
     </section>
 
-    <section>
-      <h2>Places where I like to rockclimb:</h2>
+    <h2 class="places-to-rockclimb-section">Places where I like to rockclimb:</h2>
+    <section class="places-to-rockclimb-section">
       <ul>
         <li>Vertical Ventures Saint Pete</li>
         <li>Foster Falls: Chattanooga, TN</li>
@@ -30,9 +39,9 @@
     </section>
 
     <section>
-      <h1 id="myHeader">Very important message about how cool rockclimbing is.</h1>
+      <h1 class="center" id="myHeader">Very important message about how cool rockclimbing is.</h1>
       <div style="text-align:center;">
-      <button onclick="displayResult()">Do not touch</button>
+      <button id="button-size" onclick="displayResult()">Do not touch</button>
       </div>
     </section>
 
@@ -42,9 +51,9 @@
     }
     </script>
     <br>
-    <footer>
+    <footer class="center">
       This is my awesome footer.
     </footer>
-
+    <br>
   </body>
 </html>
