@@ -45,6 +45,7 @@ nav {
   padding: 0;
   width: 200px;
   background-color: #f1f1f1;
+  border: 1px solid;
 }
 li a {
   display: block;
@@ -62,5 +63,21 @@ li a:hover:not(.active) {
 }
 .paragraph-center {
   height: 2em;
-  width: 50%;
+  width: 45%;
+}
+.top-container-center {
+  /* border: 1px solid #fff;  For debugging */
+  display: flex;
+  justify-content: center;
+}
+.menu-container {
+  /* border: 1px solid #fff; */
+  display:flex;
+  flex-direction: column;
+}
+#bigger {
+  font-size: 50px;
+}
+img {
+  border: 1px solid;
 }
