@@ -1,9 +1,26 @@
+    /* These are selectors:
+      use tag {} for applying attributes to all tags of that type
+      use .className {} for classes and call class="" in the tag
+      use #idName {} for specific id and call id="" in the tag 
+      the most specific selector is the selector that takes priority */
 html {
   height: 100%;
 }
-
 body {
   margin: 0;
   min-height: 100%;
   font: 16px / 1 sans-serif;
+  background-image: radial-gradient(rgb(194, 196, 109), rgb(13, 109, 173));
+}
+h1 {
+  text-align : center;
+}
+h4 {
+  text-align : center;
+}
+p {
+  margin : 35px;
+}
+footer {
+  text-align : center;
 }
